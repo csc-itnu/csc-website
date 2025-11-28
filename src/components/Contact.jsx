@@ -51,7 +51,7 @@ const Contact = () => {
     title: "Email Us",
     description: "General inquiries",
     contact: "csc.nu@nirmauni.ac.in",
-    link: "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=csc.nu@nirmauni.ac.in&tf=1"
+    link: "mailto:csc.nu@nirmauni.ac.in"
   },
   {
     icon: (
@@ -70,8 +70,8 @@ const Contact = () => {
     ),
     title: "LinkedIn",
     description: "Connect professionally",
-    contact: "CSC Cyber Security Club",
-    link: "https://www.linkedin.com/in/csc-itnu-41293534a/"
+    contact: "Cyber Security Club, ITNU",
+    link: "https://www.linkedin.com/company/cyber-security-club-itnu/"
   },
   {
     icon: (
@@ -81,7 +81,7 @@ const Contact = () => {
     ),
     title: "WhatsApp Community",
     description: "Join our community",
-    contact: "CSC WhatsApp Group",
+    contact: "CSC WhatsApp Community",
     link: "https://chat.whatsapp.com/CXXozICnzfT6JtIFmivFZ5?mode=ems_copy_t"
   }
 ];

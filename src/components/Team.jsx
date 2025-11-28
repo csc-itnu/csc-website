@@ -344,10 +344,6 @@ const Team = () => {
             />
           ))}
         </div>
-        
-        <footer className="text-center mt-16 text-gray-400">
-          <p>CSC (Cyber Security Club) - Protecting Tomorrow's Digital World</p>
-        </footer>
 
         {/* <MemberModal member={selectedMember} onClose={closeModal} /> */}
       </div>
