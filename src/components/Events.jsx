@@ -4,22 +4,22 @@ const Events = () => {
   const [activeTab, setActiveTab] = useState('upcoming');
 
   const upcomingEvents = [
-    // {
-    //   id: 1,
-    //   title: "HACKVERSE - EPISODE 1: THE JOURNEY BEGINS",
-    //   attendees: "Registration Open - Join Now!",
-    //   type: "Workshop",
-    //   highlight:
-    //     "Step into the exciting world of cybersecurity with hands-on demonstrations of ethical hacking techniques. Perfect for beginners! Experience live hacking demos, learn about online security, and discover the basics of cybersecurity tools.",
-    //   image: "/images/hackverse_ep1.jpg",
-    //   date: "October 08, 2025",
-    //   time: "12:30 pm - 2:30 pm",
-    //   location: "C - Auditorium",
-    //   instructor: "CSC Team",
-    //   seats: "Open Registration",
-    //   difficulty: "Beginner",
-    //   registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSc4bSAVnIJfKgnX3X2xPbF6mE7B_80519fAK4hfX0pYu4bmQA/viewform"
-    // }
+    {
+      id: 1,
+      title: "HACKVERSE - EPISODE 2: ACCESS GRANTED",
+      attendees: "Registration Open - Join Now!",
+      type: "Workshop",
+      highlight:
+        "Learn how deeper system attacks work and what happens behind unauthorized access.",
+      image: "/images/hackverse_ep2.jpeg",
+      date: "December 30, 2025",
+      time: "12:30 pm - 2:30 pm",
+      location: "C - Auditorium",
+      instructor: "Mr Sandip Jadav",
+      seats: "Open Registration",
+      difficulty: "Beginner",
+      registrationLink: "https://forms.gle/m8pnPTySKjuDB7jR6"
+    }
   ];
 
   const pastEvents = [
@@ -146,7 +146,7 @@ const Events = () => {
                   
                   <div className="space-y-4 mb-6">
                     <p className="text-xl text-gray-200 font-medium">
-                      The CSC Team cordially invites you to attend an exciting workshop on ethical hacking!
+                      The CSC Team cordially invites you to attend an exciting workshop on spyware, malware and digital episonage!
                     </p>
                   </div>
 
