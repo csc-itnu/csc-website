@@ -8,7 +8,7 @@ const Events = () => {
   const pastEvents = [
     {
       id: 1,      title: "HACKVERSE - Episode 2: ACCESS GRANTED",
-      attendees: "150+ participants",
+      attendees: "200+ participants",
       type: "Workshop",
       highlight:
         "An engaging live demonstration exploring Windows Malware, Android Spyware, and Digital Espionage.",
