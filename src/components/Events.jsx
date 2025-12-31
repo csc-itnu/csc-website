@@ -3,29 +3,19 @@ import React, { useState } from 'react';
 const Events = () => {
   const [activeTab, setActiveTab] = useState('upcoming');
 
-  const upcomingEvents = [
-    {
-      id: 1,
-      title: "HACKVERSE - EPISODE 2: ACCESS GRANTED",
-      attendees: "Registration Open - Join Now!",
-      type: "Workshop",
-      highlight:
-        "Learn how deeper system attacks work and what happens behind unauthorized access.",
-      image: "/images/hackverse_ep2.jpeg",
-      date: "December 30, 2025",
-      time: "12:30 pm - 2:30 pm",
-      location: "C - Auditorium",
-      instructor: "Mr Sandip Jadav",
-      seats: "Open Registration",
-      difficulty: "Beginner",
-      registrationLink: "https://forms.gle/m8pnPTySKjuDB7jR6"
-    }
-  ];
+  const upcomingEvents = [];
 
   const pastEvents = [
     {
-      id: 1,
-      title: "HACKVERSE - Episode 1: The Journey Begins",
+      id: 1,      title: "HACKVERSE - Episode 2: ACCESS GRANTED",
+      attendees: "150+ participants",
+      type: "Workshop",
+      highlight:
+        "An engaging live demonstration exploring Windows Malware, Android Spyware, and Digital Espionage.",
+      image: "/images/event_hackverse2.jpg"
+    },
+    {
+      id: 2,      title: "HACKVERSE - Episode 1: The Journey Begins",
       attendees: "300+ participants",
       type: "Workshop",
       highlight:
@@ -33,7 +23,7 @@ const Events = () => {
       image: "/images/event1.jpg"
     },
     {
-      id: 2,
+      id: 3,
       title: "CSGC - 2.0 Briefing",
       attendees: "95 participants",
       type: "Workshop",
@@ -42,7 +32,7 @@ const Events = () => {
       image: "/images/event2.jpg"
     },
     {
-      id: 3,
+      id: 4,
       title: "Expert Lecture on Careers in Cybersecurity",
       attendees: "88 participants",
       type: "Guest Lecture",
@@ -51,7 +41,7 @@ const Events = () => {
       image: "/images/event3.jpg"
     },
     {
-      id: 4,
+      id: 5,
       title: "Cyber Awareness Session",
       attendees: "92 participants",
       type: "Workshop",
